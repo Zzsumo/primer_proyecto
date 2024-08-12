@@ -135,10 +135,7 @@ h2 {
   margin-right: 10%;
   margin-left: 10%;
 }
-.item-img {
-  height: 100%;
-  width: 100%;
-}
+
 .item-iframe {
   height: 100%;
   width: 100%;
@@ -194,4 +191,12 @@ h2 {
 }
 .social-links a:hover {
   background-color: #ffffff;
+}
+
+.grid-form {
+  height: 75%;
+}
+.img {
+  height: 100%;
+  width: 100%;
 }
