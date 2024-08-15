@@ -31,9 +31,27 @@ a {
   margin: 5px;
   transition: all 0.3s ease;
 }
+.nav-links {
+  display: flex;
+}
+.ul-header {
+  padding-right: 120px;
+}
+.checkbtn {
+  font-size: 30px;
+  cursor: pointer;
+  display: none;
+}
+#check {
+  display: none;
+}
 .nav-links ul li a:hover {
   color: #34076f;
 }
+.checkbtn {
+  color: #34076f;
+}
+
 .img_h {
   display: flex;
   height: 30px;
@@ -87,6 +105,27 @@ h2 {
   display: flex;
   justify-content: center;
 }
+.cont-imgs-h {
+  justify-content: space-around;
+}
+.img_b-h {
+  background-color: #eaeaea;
+  border-radius: 50% 12px;
+  transition: all 0.8s ease;
+}
+.img_b-h:hover {
+  padding: 10px;
+}
+@media (max-width: 858px) {
+  .cont_imgs {
+    flex-direction: column;
+    align-items: center;
+  }
+  .img_b {
+    height: 100%;
+  }
+}
+
 .shop {
   flex-wrap: wrap;
 }
@@ -94,7 +133,9 @@ h2 {
   width: 20%;
   padding-right: 5%;
   margin-top: 5%;
+  padding: 20px;
 }
+
 .grid-container-f {
   display: grid;
   width: 80%;
@@ -115,8 +156,9 @@ h2 {
 }
 .grid-container {
   display: grid;
+  padding-top: 5%;
   width: 80%;
-  margin: 10% auto;
+  margin: 2% auto 25%;
   grid-template-rows: repeat(2, 45vh);
   grid-template-columns: repeat(2, 2fr);
   gap: 30px;
@@ -125,8 +167,13 @@ h2 {
   height: 100%;
   width: 100%;
 }
+.grid-div {
+  display: flex;
+  align-items: center;
+}
 .item-txt {
   text-align: center;
+  font-size: 1.2rem;
 }
 .th-us {
   padding-top: 5%;
@@ -137,6 +184,11 @@ h2 {
   height: 100%;
   width: 100%;
 }
+.item-img {
+  height: 100%;
+  width: 100%;
+}
+
 .foot-container {
   max-width: 1200px;
   margin: 0 auto;
@@ -189,10 +241,49 @@ h2 {
 .social-links a:hover {
   background-color: #ffffff;
 }
+@media (max-width: 858px) {
+  .foot-row {
+    text-align: center;
+  }
+  .foot-links {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
+
 .grid-form {
   height: 75%;
 }
 .img {
   height: 100%;
   width: 100%;
+}
+
+@media (max-width: 858px) {
+  .checkbtn {
+    display: block;
+    padding-left: 50px;
+  }
+  .ul-header {
+    position: fixed;
+    width: 100%;
+
+    background-color: #2d2d2d;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.5s;
+  }
+  .li-header {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  .a-header {
+    font-size: 20px;
+  }
+
+  #check:checked ~ ul {
+    left: 100%;
+  }
 }
