@@ -124,6 +124,9 @@ h2 {
   .img_b {
     height: 100%;
   }
+  .carrusel {
+    display: none;
+  }
 }
 
 .shop {
@@ -144,15 +147,12 @@ h2 {
   grid-template-columns: repeat(2, 1fr);
   gap: 40px;
 }
-.grid-form {
+.carrusel {
   border: solid #eaeaea;
 }
-.carrusel {
-  border: solid red;
-}
+
 .cont-img {
   width: 75%;
-  border: solid red;
 }
 .grid-container {
   display: grid;
