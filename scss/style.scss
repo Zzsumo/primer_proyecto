@@ -1,12 +1,14 @@
+@import "base/resets";
+@import "base/vars";
+@import "components/carrousel";
+@import "components/formulario";
+@import "components/nav";
+@import "components/footer";
+@import "layout/index";
+@import "layout/mediaq";
 @import url("https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
-* {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-decoration: none;
-}
+
 body {
   font-family: "Work Sans", sans-serif;
 }
