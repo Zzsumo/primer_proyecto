@@ -69,7 +69,7 @@ h1 {
 }
 
 .main_formulario {
-  background-image: url(../assets/fondo_f.jpg);
+  background-image: url(/assets/fondo_f.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -81,7 +81,7 @@ h1 {
   margin: 15% auto;
   grid-template-columns: repeat(2, 1fr);
   gap: 40px;
-  background-color: rgba(29, 29, 32, 0.7490196078);
+  background-color: rgba(29, 29, 32, 0.8823529412);
   border-radius: 50px;
 }
 .main_formulario .grid-container-f .contenedor-form {
