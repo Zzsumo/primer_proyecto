@@ -20,7 +20,7 @@
 
     <title>BEHERIT</title>
   </head>
-  <body>
+  <body class="body_formulario">
     <header>
       <a href="../index.html"><h1>BEHERIT</h1></a>
       <nav class="nav-links">
@@ -38,102 +38,120 @@
       </nav>
     </header>
 
-    <main class="grid-container-f">
-      <div class="grid-form g-f">
-        <form>
-          <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label"
-              >Email address</label
-            >
-            <input
-              type="email"
-              class="form-control"
-              id="exampleInputEmail1"
-              aria-describedby="emailHelp"
-            />
-            <div id="emailHelp" class="form-text">
-              We'll never share your email with anyone else.
+    <main class="main_formulario">
+      <section class="grid-container-f">
+        <div class="contenedor-form">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label txt_refe"
+                >Email address</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+              />
+              <div id="emailHelp" class="form-text txt_refe">
+                We'll never share your email with anyone else.
+              </div>
             </div>
-          </div>
-          <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label"
-              >Password</label
-            >
-            <input
-              type="password"
-              class="form-control"
-              id="exampleInputPassword1"
-            />
-          </div>
-          <div class="mb-3 form-check">
-            <input
-              type="checkbox"
-              class="form-check-input"
-              id="exampleCheck1"
-            />
-            <label class="form-check-label" for="exampleCheck1"
-              >Check me out</label
-            >
-          </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
-      </div>
-
-      <div class="grid-form carrusel">
-        <div id="carouselExampleIndicators" class="carousel slide">
-          <div class="carousel-indicators">
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="0"
-              class="active"
-              aria-current="true"
-              aria-label="Slide 1"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="1"
-              aria-label="Slide 2"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="2"
-              aria-label="Slide 3"
-            ></button>
-          </div>
-          <div class="carousel-inner cont-img">
-            <div class="carousel-item active img-carru">
-              <img src="../assets/rem_p.png" class="d-block w-100" alt="..." />
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label txt_refe"
+                >Password</label
+              >
+              <input
+                type="password"
+                class="form-control"
+                id="exampleInputPassword1"
+              />
             </div>
-            <div class="carousel-item img-carru">
-              <img src="../assets/rem_p.png" class="d-block w-100" alt="..." />
+            <div class="mb-3 form-check">
+              <input
+                type="checkbox"
+                class="form-check-input"
+                id="exampleCheck1"
+              />
+              <label class="form-check-label txt_refe" for="exampleCheck1 "
+                >Check me out</label
+              >
             </div>
-            <div class="carousel-item img-carru">
-              <img src="../assets/rem_p.png" class="d-block w-100" alt="..." />
-            </div>
-          </div>
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
         </div>
-      </div>
+
+        <div class="grid-form carrusel">
+          <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+
+            <div class="carousel-inner">
+              <div class="carousel-item active div-item">
+                <img src="" class="item_carousel" alt="..." />
+              </div>
+              <div class="carousel-item div-item">
+                <img
+                  src="../assets/rem_p.png"
+                  class="item_carousel"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item div-item">
+                <img
+                  src="../assets/rem_p.png"
+                  class="item_carousel"
+                  alt="..."
+                />
+              </div>
+            </div>
+
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer class="footer">

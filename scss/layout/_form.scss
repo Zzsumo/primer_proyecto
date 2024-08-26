@@ -1,0 +1,26 @@
+.main_formulario {
+  background-image: url(/assets/fondo_f.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+
+  .grid-container-f {
+    display: grid;
+    width: 80%;
+    margin: 10% auto;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    background-color: #1d1d207f;
+    border-radius: 50px;
+
+    .contenedor-form {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .txt_refe {
+      color: $paleta_1;
+    }
+  }
+}
