@@ -8,10 +8,10 @@
   .grid-container-f {
     display: grid;
     width: 80%;
-    margin: 10% auto;
+    margin: 15% auto;
     grid-template-columns: repeat(2, 1fr);
     gap: 40px;
-    background-color: #1d1d207f;
+    background-color: #1d1d20bf;
     border-radius: 50px;
 
     .contenedor-form {
@@ -21,6 +21,20 @@
     }
     .txt_refe {
       color: $paleta_1;
+    }
+  }
+}
+.car-conteiner {
+  display: flex;
+  align-items: center;
+  height: 600px;
+  .carousel-inner {
+    height: 165px;
+    .carousel-item {
+      text-align: center;
+      .text_car {
+        color: $paleta_1;
+      }
     }
   }
 }

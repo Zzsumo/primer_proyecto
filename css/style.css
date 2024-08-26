@@ -8,20 +8,6 @@
   text-decoration: none;
 }
 
-.carousel-inner {
-  width: 100%;
-  height: 600px;
-}
-
-.carousel-item {
-  object-fit: cover;
-}
-
-.item_carousel {
-  width: 100%;
-  height: 100%;
-}
-
 h1 {
   font-size: 55px;
 }
@@ -70,7 +56,7 @@ h1 {
   min-height: 40px;
   width: 40px;
   background-color: #34076f;
-  color: #000000;
+  color: black;
   margin: 0 5px 0;
   text-align: center;
   line-height: 40px;
@@ -92,10 +78,10 @@ h1 {
 .main_formulario .grid-container-f {
   display: grid;
   width: 80%;
-  margin: 10% auto;
+  margin: 15% auto;
   grid-template-columns: repeat(2, 1fr);
   gap: 40px;
-  background-color: rgba(29, 29, 32, 0.4980392157);
+  background-color: rgba(29, 29, 32, 0.7490196078);
   border-radius: 50px;
 }
 .main_formulario .grid-container-f .contenedor-form {
@@ -104,6 +90,21 @@ h1 {
   align-items: center;
 }
 .main_formulario .grid-container-f .txt_refe {
+  color: #eaeaea;
+}
+
+.car-conteiner {
+  display: flex;
+  align-items: center;
+  height: 600px;
+}
+.car-conteiner .carousel-inner {
+  height: 165px;
+}
+.car-conteiner .carousel-inner .carousel-item {
+  text-align: center;
+}
+.car-conteiner .carousel-inner .carousel-item .text_car {
   color: #eaeaea;
 }
 
