@@ -8,8 +8,40 @@
   text-decoration: none;
 }
 
-h1 {
-  font-size: 55px;
+header {
+  position: relative;
+  padding: 0 2rem;
+}
+
+.navbar {
+  width: 100%;
+  height: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Bona Nova SC", serif;
+}
+.navbar .logo {
+  font-size: 35px;
+}
+.navbar .links {
+  display: flex;
+  gap: 2rem;
+  font-size: 15px;
+}
+.navbar .links li a {
+  color: #79787e;
+  transition: all 0.3s ease;
+}
+.navbar .links a:hover {
+  color: #34076f;
+}
+.navbar .toggle_btn {
+  font-size: 30px;
+  cursor: pointer;
+  display: none;
 }
 
 .footer {
@@ -115,55 +147,8 @@ body {
   min-height: 100vh;
 }
 
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 30px 15%;
-  font-family: "Bona Nova SC", serif;
-  border-bottom: solid #eaeaea;
-}
-
 a {
   color: black;
-}
-
-.ul-header {
-  display: flex;
-}
-
-.nav-links ul li a {
-  font-size: 15px;
-  color: #79787e;
-  display: block;
-  margin: 5px;
-  transition: all 0.3s ease;
-}
-
-.nav-links {
-  display: flex;
-}
-
-.ul-header {
-  padding-right: 120px;
-}
-
-.checkbtn {
-  font-size: 30px;
-  cursor: pointer;
-  display: none;
-}
-
-#check {
-  display: none;
-}
-
-.nav-links ul li a:hover {
-  color: #34076f;
-}
-
-.checkbtn {
-  color: #34076f;
 }
 
 .img_h {
