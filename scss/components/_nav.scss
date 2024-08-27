@@ -1,6 +1,7 @@
 header {
   position: relative;
   padding: 0 2rem;
+  border-bottom: solid 2px $paleta_4;
 }
 .navbar {
   width: 100%;
@@ -11,6 +12,7 @@ header {
   align-items: center;
   justify-content: space-between;
   font-family: $font_tt_nav;
+
   .logo {
     font-size: 35px;
   }
@@ -26,6 +28,10 @@ header {
       color: $paleta_3;
     }
   }
+  .profile {
+    height: 30px;
+  }
+
   .toggle_btn {
     font-size: 30px;
     cursor: pointer;
