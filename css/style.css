@@ -45,7 +45,7 @@
 }
 .conteiner_cards .card .contenido .btn:hover {
   background-color: #34076f;
-  transition: ease 0.8s;
+  transition: ease 0.9s;
   color: #ffffff;
 }
 .conteiner_cards .card:hover {
@@ -156,6 +156,49 @@ header {
   }
   .navbar .toggle_btn {
     display: block;
+  }
+}
+@media (max-width: 992px) {
+  .foot-row {
+    text-align: center;
+  }
+  .foot-links {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 992px) {
+  .checkbtn {
+    display: block;
+    padding-left: 50px;
+  }
+  .ul-header {
+    position: fixed;
+    width: 100%;
+    background-color: #2d2d2d;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.5s;
+  }
+  .li-header {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  .a-header {
+    font-size: 20px;
+  }
+  #check:checked ~ ul {
+    left: 100%;
+  }
+}
+@media (max-width: 992px) {
+  .main_formulario {
+    display: block;
+  }
+  .main_formulario .car-conteiner {
+    display: none;
   }
 }
 .main_formulario {
@@ -342,15 +385,6 @@ h2 {
   width: 100%;
 }
 
-@media (max-width: 858px) {
-  .foot-row {
-    text-align: center;
-  }
-  .foot-links {
-    width: 100%;
-    margin-bottom: 15px;
-  }
-}
 .img {
   height: 100%;
   width: 100%;
