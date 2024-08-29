@@ -1,7 +1,7 @@
 @import "base/resets";
 @import "base/vars";
 @import "components/carrousel";
-@import "components/formulario";
+@import "components/cards";
 @import "components/nav";
 @import "components/footer";
 @import "layout/index";
@@ -70,9 +70,7 @@ h2 {
   display: flex;
   justify-content: center;
 }
-.cont-imgs-h {
-  justify-content: space-around;
-}
+
 .img_b-h {
   background-color: #eaeaea;
   border-radius: 50% 12px;
