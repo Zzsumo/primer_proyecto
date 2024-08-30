@@ -157,8 +157,6 @@ header {
   .navbar .toggle_btn {
     display: block;
   }
-}
-@media (max-width: 992px) {
   .foot-row {
     text-align: center;
   }
@@ -166,8 +164,6 @@ header {
     width: 100%;
     margin-bottom: 15px;
   }
-}
-@media (max-width: 992px) {
   .checkbtn {
     display: block;
     padding-left: 50px;
@@ -192,13 +188,14 @@ header {
   #check:checked ~ ul {
     left: 100%;
   }
-}
-@media (max-width: 992px) {
   .main_formulario {
     display: block;
   }
   .main_formulario .car-conteiner {
     display: none;
+  }
+  .grid-container {
+    display: block;
   }
 }
 .main_formulario {
