@@ -79,18 +79,6 @@ h2 {
 .img_b-h:hover {
   padding: 10px;
 }
-@media (max-width: 858px) {
-  .cont_imgs {
-    flex-direction: column;
-    align-items: center;
-  }
-  .img_b {
-    height: 100%;
-  }
-  .carrusel {
-    display: none;
-  }
-}
 
 .shop {
   flex-wrap: wrap;
@@ -140,33 +128,4 @@ h2 {
 .img {
   height: 100%;
   width: 100%;
-}
-
-@media (max-width: 858px) {
-  .checkbtn {
-    display: block;
-    padding-left: 50px;
-  }
-  .ul-header {
-    position: fixed;
-    width: 100%;
-
-    background-color: #2d2d2d;
-    top: 80px;
-    left: -100%;
-    text-align: center;
-    transition: all 0.5s;
-  }
-  .li-header {
-    display: block;
-    margin: 50px 0;
-    line-height: 30px;
-  }
-  .a-header {
-    font-size: 20px;
-  }
-
-  #check:checked ~ ul {
-    left: 100%;
-  }
 }
