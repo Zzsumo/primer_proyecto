@@ -1,0 +1,12 @@
+.cont_imgs {
+  display: flex;
+  justify-content: space-between;
+  .img_b-h {
+    background-color: #eaeaea;
+    border-radius: 50% 12px;
+    transition: all 0.8s ease;
+    &:hover {
+      padding: 10px;
+    }
+  }
+}

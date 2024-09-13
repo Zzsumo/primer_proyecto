@@ -149,6 +149,19 @@ header {
   background-color: #ffffff;
 }
 
+.cont_imgs {
+  display: flex;
+  justify-content: space-between;
+}
+.cont_imgs .img_b-h {
+  background-color: #eaeaea;
+  border-radius: 50% 12px;
+  transition: all 0.8s ease;
+}
+.cont_imgs .img_b-h:hover {
+  padding: 10px;
+}
+
 @media (max-width: 992px) {
   .navbar .links,
   .navbar .profile {
@@ -291,11 +304,6 @@ h2 {
   margin-top: 15px;
 }
 
-.img_1 {
-  width: 20%;
-  padding-top: 20px;
-}
-
 .sec_b {
   display: flex;
   flex-direction: column;
@@ -308,21 +316,6 @@ h2 {
 
 .d_text {
   text-align: center;
-}
-
-.cont_imgs {
-  display: flex;
-  justify-content: center;
-}
-
-.img_b-h {
-  background-color: #eaeaea;
-  border-radius: 50% 12px;
-  transition: all 0.8s ease;
-}
-
-.img_b-h:hover {
-  padding: 10px;
 }
 
 .shop {
